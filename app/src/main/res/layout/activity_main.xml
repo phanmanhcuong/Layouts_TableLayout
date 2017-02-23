@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="2"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <Button
+            android:text="@string/ColorRed"
+            android:textColor="@color/colorRed"/>
+        <Button
+            android:text="@string/ColorYellow"
+            android:textColor="@color/colorYellow"/>
+        <Button
+            android:text="@string/ColorGreen"
+            android:textColor="@color/Green"/>
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_height="30dp"
+            android:layout_span="3"
+            android:background="@color/colorYellow"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:layout_column="2"
+            android:text="@string/Clear"/>
+    </TableRow>
+</TableLayout>

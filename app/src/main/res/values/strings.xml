@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Layouts_TableLayout</string>
+    <string name="ColorRed">Red</string>
+    <string name="ColorYellow">Yellow</string>
+    <string name="ColorGreen">Green</string>
+    <string name="Clear">Clear</string>
+</resources>
